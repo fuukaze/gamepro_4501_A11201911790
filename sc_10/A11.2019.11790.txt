@@ -1,5 +1,10 @@
-Cube -> component = transform, cube(mesh filter), mesh renderer, box collider
-Sphere -> component = transform, sphere(mesh filter), mesh renderer, sphere collider
-Capsule -> component = transform, capsule(mesh filter), mesh renderer, capsule collider
-Quad -> component = transform, quad(mesh filter), mesh renderer, mesh collider
-Plane -> component = transform, plane(mesh filter), mesh renderer, mesh collider
+Cube -> Component = Transform, Cube (Mesh Filter), Box Collider, Mesh Renderer, dan Material.
+Sphere -> Component = Transform, Sphere (Mesh Filter), Sphere Collider, Mesh Renderer, dan Material.
+Capsule -> Component = Transform, Capsule (Mesh Filter), Capsule Collider, Mesh Renderer, dan Material.
+Cylinder -> Component = Transform, Cylinder (Mesh Filter), Capsule Collider, Mesh Renderer, dan Material.
+Plane -> Component = Transform, Plane (Mesh Filter), Mesh Collider, Mesh Renderer, dan Material.
+Quad -> Component = Transform, Quad (Mesh Filter), Mesh Collider, Mesh Renderer, dan Material.
+Terrain -> Component = Transform, Terrain, dan Terrain 
+Tree -> Component = Transform, Tree, Mesh (Mesh Filter), dan Mesh Renderer.
+Wind Zone -> Component = Transform dan Wind Zone.
+3D Text -> Component = Transform, Mesh Renderer, dan Text Mesh.
